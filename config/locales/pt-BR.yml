@@ -1,0 +1,4 @@
+pt-BR:
+  palindrome:
+    is_palindrome: é um palindrome
+    is_not_palindrome: não é um palindrome
