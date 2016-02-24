@@ -2,7 +2,7 @@ require 'rspec_api_documentation'
 require 'rspec_api_documentation/dsl'
 
 RspecApiDocumentation.configure do |config|
-  config.format = [:markdown]
+  config.format = [:markdown, :html]
   config.curl_host = 'http://palindrome.com.br/'
   config.api_name = 'Palindrome API'
   config.curl_headers_to_filter = %w('Cookie')

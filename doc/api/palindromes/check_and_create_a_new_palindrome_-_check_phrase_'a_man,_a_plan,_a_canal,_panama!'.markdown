@@ -41,10 +41,10 @@ Host: example.org</pre>
 X-XSS-Protection: 1; mode=block
 X-Content-Type-Options: nosniff
 Content-Type: application/json; charset=utf-8
-ETag: W/&quot;812c86cee2a97cadb664f5091bfde581&quot;
+ETag: W/&quot;a4310b30f8149246aa4fcbfbb98adba2&quot;
 Cache-Control: max-age=0, private, must-revalidate
-X-Request-Id: 88551b93-08c7-4776-9213-312bc529efe0
-X-Runtime: 0.004055
+X-Request-Id: 86fd62d6-e5e5-4d17-8c37-8d4b4ef51165
+X-Runtime: 0.005856
 Content-Length: 147</pre>
 
 #### Status
@@ -56,7 +56,7 @@ Content-Length: 147</pre>
 <pre>{
   "palindrome": {
     "id": {
-      "$oid": "56cdf54a1bc7a15a3720e97f"
+      "$oid": "56cdfab61bc7a15c14ab5161"
     },
     "word": "A man, a plan, a canal, Panama!",
     "is_palindrome": true,

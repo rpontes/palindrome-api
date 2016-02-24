@@ -41,10 +41,10 @@ Host: example.org</pre>
 X-XSS-Protection: 1; mode=block
 X-Content-Type-Options: nosniff
 Content-Type: application/json; charset=utf-8
-ETag: W/&quot;1026be994e02c5f438c22c07eb81e7eb&quot;
+ETag: W/&quot;b5df636270e14683f7ce29a4e0883d6d&quot;
 Cache-Control: max-age=0, private, must-revalidate
-X-Request-Id: 31932ce8-c6d6-42fa-a5e6-802a12da6234
-X-Runtime: 0.004549
+X-Request-Id: e82eb70a-94f6-4dee-96f3-57f4f114b918
+X-Runtime: 0.007810
 Content-Length: 128</pre>
 
 #### Status
@@ -56,7 +56,7 @@ Content-Length: 128</pre>
 <pre>{
   "palindrome": {
     "id": {
-      "$oid": "56cdf54a1bc7a15a3720e97e"
+      "$oid": "56cdfab61bc7a15c14ab5160"
     },
     "word": "macaco",
     "is_palindrome": false,
